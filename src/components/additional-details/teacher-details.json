@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_additional_details_teacher_details",
+  "info": {
+    "displayName": "Teacher_details",
+    "icon": "dashboard"
+  },
+  "options": {},
+  "attributes": {
+    "Experience": {
+      "type": "richtext"
+    },
+    "Speciality": {
+      "type": "richtext"
+    }
+  }
+}

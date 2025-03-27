@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "subtopics",
+  "info": {
+    "singularName": "subtopic",
+    "pluralName": "subtopics",
+    "displayName": "Subtopic"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Tittle": {
+      "type": "string"
+    },
+    "topic": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::topic.topic",
+      "inversedBy": "subtopics"
+    }
+  }
+}

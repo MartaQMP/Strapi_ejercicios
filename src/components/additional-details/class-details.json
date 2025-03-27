@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_additional_details_class_details",
+  "info": {
+    "displayName": "Class_details",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "Schedule": {
+      "type": "richtext"
+    },
+    "Classroom": {
+      "type": "richtext"
+    }
+  }
+}

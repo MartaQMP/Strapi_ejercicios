@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_components_events_gallery_images",
+  "info": {
+    "displayName": "Gallery_images",
+    "icon": "landscape"
+  },
+  "options": {},
+  "attributes": {
+    "Media": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

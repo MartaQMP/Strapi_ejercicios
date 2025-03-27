@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_additional_details_events_details",
+  "info": {
+    "displayName": "Events_details",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Date": {
+      "type": "date"
+    },
+    "Time": {
+      "type": "time"
+    },
+    "Place": {
+      "type": "richtext"
+    }
+  }
+}

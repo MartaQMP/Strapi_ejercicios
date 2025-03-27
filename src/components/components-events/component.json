@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_components_events_components",
+  "info": {
+    "displayName": "Component",
+    "icon": "alien"
+  },
+  "options": {},
+  "attributes": {
+    "Content": {
+      "type": "richtext"
+    }
+  }
+}
