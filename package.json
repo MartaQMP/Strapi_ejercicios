@@ -18,17 +18,17 @@
     "@strapi/plugin-cloud": "5.12.0",
     "@strapi/plugin-users-permissions": "5.12.0",
     "@strapi/strapi": "5.12.0",
-    "mysql2": "3.9.8",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-router-dom": "^6.0.0",
-    "styled-components": "^6.0.0"
+    "mysql2": "3.14.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.4.0",
+    "styled-components": "^6.1.16"
   },
   "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "typescript": "^5"
+    "@types/node": "^22.13.14",
+    "@types/react": "^19.0.12",
+    "@types/react-dom": "^19.0.4",
+    "typescript": "^5.8.2"
   },
   "engines": {
     "node": ">=18.0.0 <=22.x.x",
