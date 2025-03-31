@@ -1,8 +1,9 @@
 {
   "collectionName": "components_components_events_url_lists",
   "info": {
-    "displayName": "URL_list",
-    "icon": "cursor"
+    "displayName": "url",
+    "icon": "cursor",
+    "description": ""
   },
   "options": {},
   "attributes": {

@@ -67,7 +67,8 @@ export interface ComponentsEventsGalleryImages extends Struct.ComponentSchema {
 export interface ComponentsEventsUrlList extends Struct.ComponentSchema {
   collectionName: 'components_components_events_url_lists';
   info: {
-    displayName: 'URL_list';
+    description: '';
+    displayName: 'url';
     icon: 'cursor';
   };
   attributes: {

@@ -449,7 +449,7 @@ export interface ApiEventEvent extends Struct.CollectionTypeSchema {
     >;
     locale: Schema.Attribute.String;
     localizations: Schema.Attribute.Relation<'oneToMany', 'api::event.event'>;
-    Model_event: Schema.Attribute.DynamicZone<
+    modelEvent: Schema.Attribute.DynamicZone<
       [
         'components-events.url-list',
         'components-events.gallery-images',
@@ -562,7 +562,7 @@ export interface ApiTeacherTeacher extends Struct.CollectionTypeSchema {
         };
       }>;
     publishedAt: Schema.Attribute.DateTime;
-    Teacher: Schema.Attribute.Component<
+    Teacher_details: Schema.Attribute.Component<
       'additional-details.teacher-details',
       true
     >;

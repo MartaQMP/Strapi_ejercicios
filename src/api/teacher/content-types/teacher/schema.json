@@ -41,7 +41,7 @@
         }
       }
     },
-    "Teacher": {
+    "Teacher_details": {
       "type": "component",
       "repeatable": true,
       "component": "additional-details.teacher-details"

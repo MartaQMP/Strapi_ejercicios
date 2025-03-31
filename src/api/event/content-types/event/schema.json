@@ -68,7 +68,7 @@
       "target": "api::topic.topic",
       "mappedBy": "event"
     },
-    "Model_event": {
+    "modelEvent": {
       "type": "dynamiczone",
       "components": [
         "components-events.url-list",
