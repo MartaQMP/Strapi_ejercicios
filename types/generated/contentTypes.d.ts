@@ -561,6 +561,13 @@ export interface ApiTeacherTeacher extends Struct.CollectionTypeSchema {
           localized: true;
         };
       }>;
+    NumeroClases: Schema.Attribute.Integer &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }> &
+      Schema.Attribute.DefaultTo<0>;
     publishedAt: Schema.Attribute.DateTime;
     Teacher_details: Schema.Attribute.Component<
       'additional-details.teacher-details',

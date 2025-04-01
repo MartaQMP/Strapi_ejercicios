@@ -57,6 +57,15 @@
       "relation": "manyToMany",
       "target": "api::event.event",
       "mappedBy": "teachers"
+    },
+    "NumeroClases": {
+      "type": "integer",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "default": 0
     }
   }
 }
